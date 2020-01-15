@@ -10,8 +10,11 @@ Install virtualenv using pip.
      pip install virtualenv 
 First create a virtual environment for the project.
 
+
+```
 virtualenv -p python3.7 venv or virtualenv venv
      . venv/bin/activate (Linux)
      . venv/Scripts/activate (windows)
+     
 Install dependencies
     pip install -r requirements.txt
