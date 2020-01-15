@@ -5,8 +5,8 @@ from src import app
 
 
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'shamsad@123'
+app.config['MYSQL_USER'] = 'NULL'
+app.config['MYSQL_PASSWORD'] = 'NULL'
 app.config['MYSQL_DB'] = 'student_info'
 
 mysql = MySQL(app) 
